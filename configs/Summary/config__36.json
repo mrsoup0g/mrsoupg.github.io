@@ -1,0 +1,12 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "COUNT",
+  "summaryLayer": {
+    "fields": [],
+    "id": "189d1322987-layer-3",
+    "name": "Charging Stations",
+    "filterField": "name",
+    "url": "189d1322987-layer-3"
+  }
+}

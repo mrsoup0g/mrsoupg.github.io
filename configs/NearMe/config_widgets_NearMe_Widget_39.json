@@ -1,0 +1,2179 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Charging_Stations(1)/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "189d1322987-layer-3",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Charging_Stations(1)/FeatureServer/",
+      "isMapServer": false,
+      "title": "Charging Stations",
+      "visibility": true,
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "description": "",
+            "fieldInfos": [
+              {
+                "fieldName": "name",
+                "isEditable": true,
+                "label": "name",
+                "visible": true
+              },
+              {
+                "fieldName": "capacity",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Capacity",
+                "visible": true
+              },
+              {
+                "fieldName": "socket_chademo",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Socket Type - Chademo",
+                "visible": true
+              },
+              {
+                "fieldName": "socket_type1",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Socket Type - Type 1",
+                "visible": true
+              },
+              {
+                "fieldName": "socket_type2_combo",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Socket Type - Combo",
+                "visible": true
+              }
+            ],
+            "title": "{name}"
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": false
+          },
+          {
+            "fieldName": "access",
+            "isEditable": true,
+            "label": "access",
+            "visible": false
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": false
+          },
+          {
+            "fieldName": "authentication_membership_card",
+            "isEditable": true,
+            "label": "authentication:membership_card",
+            "visible": false
+          },
+          {
+            "fieldName": "brand",
+            "isEditable": true,
+            "label": "brand",
+            "visible": false
+          },
+          {
+            "fieldName": "brand_wikidata",
+            "isEditable": true,
+            "label": "brand:wikidata",
+            "visible": false
+          },
+          {
+            "fieldName": "brand_wikipedia",
+            "isEditable": true,
+            "label": "brand:wikipedia",
+            "visible": false
+          },
+          {
+            "fieldName": "capacity",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "Capacity",
+            "visible": true
+          },
+          {
+            "fieldName": "charging_station_output",
+            "isEditable": true,
+            "label": "charging_station:output",
+            "visible": false
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": false
+          },
+          {
+            "fieldName": "fee",
+            "isEditable": true,
+            "label": "fee",
+            "visible": false
+          },
+          {
+            "fieldName": "motorcar",
+            "isEditable": true,
+            "label": "motorcar",
+            "visible": false
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": false
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": false
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": false
+          },
+          {
+            "fieldName": "operator_wikidata",
+            "isEditable": true,
+            "label": "operator:wikidata",
+            "visible": false
+          },
+          {
+            "fieldName": "operator_wikipedia",
+            "isEditable": true,
+            "label": "operator:wikipedia",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_cash",
+            "isEditable": true,
+            "label": "payment:cash",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_credit_cards",
+            "isEditable": true,
+            "label": "payment:credit_cards",
+            "visible": false
+          },
+          {
+            "fieldName": "ref_flo",
+            "isEditable": true,
+            "label": "ref:flo",
+            "visible": false
+          },
+          {
+            "fieldName": "short_name",
+            "isEditable": true,
+            "label": "short_name",
+            "visible": false
+          },
+          {
+            "fieldName": "socket_chademo",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "Socket Type - Chademo",
+            "visible": true
+          },
+          {
+            "fieldName": "socket_type1",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "Socket Type - Type 1",
+            "visible": true
+          },
+          {
+            "fieldName": "socket_type2_combo",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "Socket Type - Combo",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": false
+          },
+          {
+            "fieldName": "tesla_ref",
+            "isEditable": true,
+            "label": "tesla:ref",
+            "visible": false
+          },
+          {
+            "fieldName": "voltage",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "voltage",
+            "visible": false
+          }
+        ],
+        "title": "Charging Station"
+      },
+      "renderer": {
+        "type": "uniqueValue",
+        "visualVariables": [
+          {
+            "type": "sizeInfo",
+            "valueExpression": "$view.scale",
+            "stops": [
+              {
+                "size": 33.94199101597923,
+                "value": 9027.977411
+              },
+              {
+                "size": 27.153592812783394,
+                "value": 72223.819286
+              },
+              {
+                "size": 13.576796406391697,
+                "value": 577790.554289
+              },
+              {
+                "size": 6.7883982031958485,
+                "value": 4622324.434309
+              }
+            ]
+          }
+        ],
+        "field1": "brand",
+        "defaultLabel": "Other",
+        "defaultSymbol": {
+          "type": "esriSMS",
+          "color": [
+            43,
+            204,
+            91,
+            255
+          ],
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "size": 10.5,
+          "style": "esriSMSCircle",
+          "outline": {
+            "type": "esriSLS",
+            "color": [
+              153,
+              153,
+              153,
+              64
+            ],
+            "width": 0.75,
+            "style": "esriSLSSolid"
+          }
+        },
+        "uniqueValueGroups": [
+          {
+            "classes": [
+              {
+                "label": "FLO",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    232,
+                    84,
+                    46,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 12,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "FLO"
+                  ]
+                ]
+              },
+              {
+                "label": "Tesla Supercharger",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    238,
+                    252,
+                    30,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 12,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Tesla Supercharger"
+                  ]
+                ]
+              },
+              {
+                "label": "ChargePoint",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    66,
+                    227,
+                    227,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 12,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "ChargePoint"
+                  ]
+                ]
+              },
+              {
+                "label": "Tesla, Inc.",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    114,
+                    35,
+                    217,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 12,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Tesla, Inc."
+                  ]
+                ]
+              },
+              {
+                "label": "Ivy",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    235,
+                    23,
+                    203,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 12,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      0,
+                      0,
+                      128,
+                      255
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Ivy"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "uniqueValueInfos": [
+          {
+            "label": "FLO",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 232,
+                "g": 84,
+                "b": 46,
+                "a": 1
+              },
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 128,
+                  "a": 1
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "FLO"
+          },
+          {
+            "label": "Tesla Supercharger",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 238,
+                "g": 252,
+                "b": 30,
+                "a": 1
+              },
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 128,
+                  "a": 1
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Tesla Supercharger"
+          },
+          {
+            "label": "ChargePoint",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 66,
+                "g": 227,
+                "b": 227,
+                "a": 1
+              },
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 128,
+                  "a": 1
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "ChargePoint"
+          },
+          {
+            "label": "Tesla, Inc.",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 114,
+                "g": 35,
+                "b": 217,
+                "a": 1
+              },
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 128,
+                  "a": 1
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Tesla, Inc."
+          },
+          {
+            "label": "Ivy",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 235,
+                "g": 23,
+                "b": 203,
+                "a": 1
+              },
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 128,
+                  "a": 1
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "size": 16,
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Ivy"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Fuel_Stations/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "189d11e4966-layer-2",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/Fuel_Stations/FeatureServer/",
+      "isMapServer": false,
+      "title": "Fuel Stations",
+      "visibility": true,
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields",
+            "description": "",
+            "fieldInfos": [
+              {
+                "fieldName": "addr_housenumber",
+                "format": {
+                  "digitSeparator": true,
+                  "places": 0
+                },
+                "isEditable": true,
+                "label": "Street Number",
+                "visible": true
+              },
+              {
+                "fieldName": "addr_street",
+                "isEditable": true,
+                "label": "Street Name",
+                "visible": true
+              }
+            ],
+            "title": "{name}"
+          }
+        ],
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": false
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": false
+          },
+          {
+            "fieldName": "access",
+            "isEditable": true,
+            "label": "access",
+            "visible": false
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": false
+          },
+          {
+            "fieldName": "addr_district",
+            "isEditable": true,
+            "label": "addr:district",
+            "visible": false
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "Street Number",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": false
+          },
+          {
+            "fieldName": "addr_province",
+            "isEditable": true,
+            "label": "addr:province",
+            "visible": false
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "Street Name",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_unit",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "addr:unit",
+            "visible": false
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": false
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": false
+          },
+          {
+            "fieldName": "amenity_1",
+            "isEditable": true,
+            "label": "amenity_1",
+            "visible": false
+          },
+          {
+            "fieldName": "atm",
+            "isEditable": true,
+            "label": "atm",
+            "visible": false
+          },
+          {
+            "fieldName": "atm_operator",
+            "isEditable": true,
+            "label": "atm:operator",
+            "visible": false
+          },
+          {
+            "fieldName": "branch",
+            "isEditable": true,
+            "label": "branch",
+            "visible": false
+          },
+          {
+            "fieldName": "brand",
+            "isEditable": true,
+            "label": "brand",
+            "visible": false
+          },
+          {
+            "fieldName": "brand_wikidata",
+            "isEditable": true,
+            "label": "brand:wikidata",
+            "visible": false
+          },
+          {
+            "fieldName": "brand_wikipedia",
+            "isEditable": true,
+            "label": "brand:wikipedia",
+            "visible": false
+          },
+          {
+            "fieldName": "building",
+            "isEditable": true,
+            "label": "building",
+            "visible": false
+          },
+          {
+            "fieldName": "building_levels",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "building:levels",
+            "visible": false
+          },
+          {
+            "fieldName": "car_wash",
+            "isEditable": true,
+            "label": "car_wash",
+            "visible": false
+          },
+          {
+            "fieldName": "cardkey",
+            "isEditable": true,
+            "label": "cardkey",
+            "visible": false
+          },
+          {
+            "fieldName": "compressed_air",
+            "isEditable": true,
+            "label": "compressed_air",
+            "visible": false
+          },
+          {
+            "fieldName": "created_by",
+            "isEditable": true,
+            "label": "created_by",
+            "visible": false
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": false
+          },
+          {
+            "fieldName": "diesel",
+            "isEditable": true,
+            "label": "diesel",
+            "visible": false
+          },
+          {
+            "fieldName": "email",
+            "isEditable": true,
+            "label": "email",
+            "visible": false
+          },
+          {
+            "fieldName": "fixme",
+            "isEditable": true,
+            "label": "fixme",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_1_25",
+            "isEditable": true,
+            "label": "fuel:1_25",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_1_50",
+            "isEditable": true,
+            "label": "fuel:1_50",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_biodiesel",
+            "isEditable": true,
+            "label": "fuel:biodiesel",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_biogas",
+            "isEditable": true,
+            "label": "fuel:biogas",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_cng",
+            "isEditable": true,
+            "label": "fuel:cng",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_diesel",
+            "isEditable": true,
+            "label": "fuel:diesel",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_discount",
+            "isEditable": true,
+            "label": "fuel:discount",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_dyed_diesel",
+            "isEditable": true,
+            "label": "fuel:dyed_diesel",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_e10",
+            "isEditable": true,
+            "label": "fuel:e10",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_e85",
+            "isEditable": true,
+            "label": "fuel:e85",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_electricity",
+            "isEditable": true,
+            "label": "fuel:electricity",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_ethanol",
+            "isEditable": true,
+            "label": "fuel:ethanol",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_gasoline",
+            "isEditable": true,
+            "label": "fuel:gasoline",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_gasoline_87",
+            "isEditable": true,
+            "label": "fuel:gasoline_87",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_gasoline_89",
+            "isEditable": true,
+            "label": "fuel:gasoline_89",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_gasoline_91",
+            "isEditable": true,
+            "label": "fuel:gasoline_91",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_GTL_diesel",
+            "isEditable": true,
+            "label": "fuel:GTL_diesel",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_HGV_diesel",
+            "isEditable": true,
+            "label": "fuel:HGV_diesel",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_lpg",
+            "isEditable": true,
+            "label": "fuel:lpg",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_midgrade",
+            "isEditable": true,
+            "label": "fuel:midgrade",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_100",
+            "isEditable": true,
+            "label": "fuel:octane_100",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_87",
+            "isEditable": true,
+            "label": "fuel:octane_87",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_89",
+            "isEditable": true,
+            "label": "fuel:octane_89",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_91",
+            "isEditable": true,
+            "label": "fuel:octane_91",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_93",
+            "isEditable": true,
+            "label": "fuel:octane_93",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_94",
+            "isEditable": true,
+            "label": "fuel:octane_94",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_95",
+            "isEditable": true,
+            "label": "fuel:octane_95",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_octane_98",
+            "isEditable": true,
+            "label": "fuel:octane_98",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_premium",
+            "isEditable": true,
+            "label": "fuel:premium",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_propane",
+            "isEditable": true,
+            "label": "fuel:propane",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_regular",
+            "isEditable": true,
+            "label": "fuel:regular",
+            "visible": false
+          },
+          {
+            "fieldName": "fuel_ultra94",
+            "isEditable": true,
+            "label": "fuel:ultra94",
+            "visible": false
+          },
+          {
+            "fieldName": "full_service",
+            "isEditable": true,
+            "label": "full_service",
+            "visible": false
+          },
+          {
+            "fieldName": "gst_number",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "gst_number",
+            "visible": false
+          },
+          {
+            "fieldName": "hgv",
+            "isEditable": true,
+            "label": "hgv",
+            "visible": false
+          },
+          {
+            "fieldName": "hst_number",
+            "isEditable": true,
+            "label": "hst_number",
+            "visible": false
+          },
+          {
+            "fieldName": "internet_access",
+            "isEditable": true,
+            "label": "internet_access",
+            "visible": false
+          },
+          {
+            "fieldName": "lottery",
+            "isEditable": true,
+            "label": "lottery",
+            "visible": false
+          },
+          {
+            "fieldName": "maxheight",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "maxheight",
+            "visible": false
+          },
+          {
+            "fieldName": "membership",
+            "isEditable": true,
+            "label": "membership",
+            "visible": false
+          },
+          {
+            "fieldName": "not_brand_wikidata",
+            "isEditable": true,
+            "label": "not:brand:wikidata",
+            "visible": false
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": false
+          },
+          {
+            "fieldName": "old_name",
+            "isEditable": true,
+            "label": "old_name",
+            "visible": false
+          },
+          {
+            "fieldName": "opendata_type",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "opendata:type",
+            "visible": false
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": false
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": false
+          },
+          {
+            "fieldName": "pay_at_pump",
+            "isEditable": true,
+            "label": "pay_at_pump",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_cash",
+            "isEditable": true,
+            "label": "payment:cash",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_credit_card",
+            "isEditable": true,
+            "label": "payment:credit_card",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_credit_cards",
+            "isEditable": true,
+            "label": "payment:credit_cards",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_debit_cards",
+            "isEditable": true,
+            "label": "payment:debit_cards",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_interac",
+            "isEditable": true,
+            "label": "payment:interac",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_mastercard",
+            "isEditable": true,
+            "label": "payment:mastercard",
+            "visible": false
+          },
+          {
+            "fieldName": "payment_visa",
+            "isEditable": true,
+            "label": "payment:visa",
+            "visible": false
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": false
+          },
+          {
+            "fieldName": "ref_vatin",
+            "isEditable": true,
+            "label": "ref:vatin",
+            "visible": false
+          },
+          {
+            "fieldName": "self_serve",
+            "isEditable": true,
+            "label": "self_serve",
+            "visible": false
+          },
+          {
+            "fieldName": "self_service",
+            "isEditable": true,
+            "label": "self_service",
+            "visible": false
+          },
+          {
+            "fieldName": "shop",
+            "isEditable": true,
+            "label": "shop",
+            "visible": false
+          },
+          {
+            "fieldName": "smoking",
+            "isEditable": true,
+            "label": "smoking",
+            "visible": false
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": false
+          },
+          {
+            "fieldName": "stop_swap_n_go",
+            "isEditable": true,
+            "label": "stop_swap_n_go",
+            "visible": false
+          },
+          {
+            "fieldName": "store_name",
+            "isEditable": true,
+            "label": "store_name",
+            "visible": false
+          },
+          {
+            "fieldName": "store_ref",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "store_ref",
+            "visible": false
+          },
+          {
+            "fieldName": "toilets_wheelchair",
+            "isEditable": true,
+            "label": "toilets:wheelchair",
+            "visible": false
+          },
+          {
+            "fieldName": "vacuum",
+            "isEditable": true,
+            "label": "vacuum",
+            "visible": false
+          },
+          {
+            "fieldName": "vacuum_cleaner",
+            "isEditable": true,
+            "label": "vacuum_cleaner",
+            "visible": false
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": false
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": false
+          }
+        ],
+        "title": "Gas Station"
+      },
+      "renderer": {
+        "authoringInfo": {},
+        "type": "uniqueValue",
+        "visualVariables": [
+          {
+            "type": "sizeInfo",
+            "valueExpression": "$view.scale",
+            "stops": [
+              {
+                "size": 13.333333333333332,
+                "value": 4513.988705
+              },
+              {
+                "size": 10.666666666666666,
+                "value": 36111.909643
+              },
+              {
+                "size": 5.333333333333333,
+                "value": 288895.277144
+              },
+              {
+                "size": 2.6666666666666665,
+                "value": 2311162.217155
+              }
+            ]
+          }
+        ],
+        "field1": "brand",
+        "uniqueValueGroups": [
+          {
+            "classes": [
+              {
+                "label": "Petro-Canada",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    237,
+                    81,
+                    81,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Petro-Canada"
+                  ]
+                ]
+              },
+              {
+                "label": "Esso",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    20,
+                    158,
+                    206,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Esso"
+                  ]
+                ]
+              },
+              {
+                "label": "Shell",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    167,
+                    198,
+                    54,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Shell"
+                  ]
+                ]
+              },
+              {
+                "label": "Husky",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    158,
+                    85,
+                    156,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Husky"
+                  ]
+                ]
+              },
+              {
+                "label": "Canadian Tire",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    252,
+                    146,
+                    31,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Canadian Tire"
+                  ]
+                ]
+              },
+              {
+                "label": "Pioneer",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    255,
+                    222,
+                    62,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Pioneer"
+                  ]
+                ]
+              },
+              {
+                "label": "7-Eleven",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    247,
+                    137,
+                    216,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "7-Eleven"
+                  ]
+                ]
+              },
+              {
+                "label": "Ultramar",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    183,
+                    129,
+                    74,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Ultramar"
+                  ]
+                ]
+              },
+              {
+                "label": "Mobil",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    60,
+                    175,
+                    153,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Mobil"
+                  ]
+                ]
+              },
+              {
+                "label": "Circle K",
+                "symbol": {
+                  "type": "esriSMS",
+                  "color": [
+                    107,
+                    107,
+                    214,
+                    255
+                  ],
+                  "angle": 0,
+                  "xoffset": 0,
+                  "yoffset": 0,
+                  "size": 6,
+                  "style": "esriSMSCircle",
+                  "outline": {
+                    "type": "esriSLS",
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "width": 0.75,
+                    "style": "esriSLSSolid"
+                  }
+                },
+                "values": [
+                  [
+                    "Circle K"
+                  ]
+                ]
+              }
+            ]
+          }
+        ],
+        "uniqueValueInfos": [
+          {
+            "label": "Petro-Canada",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 237,
+                "g": 81,
+                "b": 81,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Petro-Canada"
+          },
+          {
+            "label": "Esso",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 20,
+                "g": 158,
+                "b": 206,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Esso"
+          },
+          {
+            "label": "Shell",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 167,
+                "g": 198,
+                "b": 54,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Shell"
+          },
+          {
+            "label": "Husky",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 158,
+                "g": 85,
+                "b": 156,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Husky"
+          },
+          {
+            "label": "Canadian Tire",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 252,
+                "g": 146,
+                "b": 31,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Canadian Tire"
+          },
+          {
+            "label": "Pioneer",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 255,
+                "g": 222,
+                "b": 62,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Pioneer"
+          },
+          {
+            "label": "7-Eleven",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 247,
+                "g": 137,
+                "b": 216,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "7-Eleven"
+          },
+          {
+            "label": "Ultramar",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 183,
+                "g": 129,
+                "b": 74,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Ultramar"
+          },
+          {
+            "label": "Mobil",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 60,
+                "g": 175,
+                "b": 153,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Mobil"
+          },
+          {
+            "label": "Circle K",
+            "symbol": {
+              "type": "simplemarkersymbol",
+              "color": {
+                "r": 107,
+                "g": 107,
+                "b": 214,
+                "a": 1
+              },
+              "size": 8,
+              "style": "circle",
+              "outline": {
+                "type": "simplelinesymbol",
+                "color": {
+                  "r": 153,
+                  "g": 153,
+                  "b": 153,
+                  "a": 0.25098039215686274
+                },
+                "width": 1,
+                "style": "solid",
+                "_inherited": {
+                  "p": 2
+                }
+              },
+              "xoffset": 0,
+              "yoffset": 0,
+              "_inherited": {
+                "p": 2
+              }
+            },
+            "value": "Circle K"
+          }
+        ]
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": true
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "selectedSearchLayerOnly": true,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/RedStickpin.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "Searching",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": false,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "showAllLayers": false,
+  "editorDescription": "Find your nearest Charging or Fueling Station",
+  "noFeatureFoundMessage": "No results found",
+  "showCurrentLocationTool": true,
+  "enableDirection": false,
+  "bufferInputOption": "slider"
+}

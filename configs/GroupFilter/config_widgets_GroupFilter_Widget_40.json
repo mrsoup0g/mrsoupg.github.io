@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "Station Name",
+      "desc": "",
+      "operator": "",
+      "defaultVal": "",
+      "appendSameLayer": true,
+      "appendSameLayerConjunc": "OR",
+      "caseSearch": false,
+      "layers": [
+        {
+          "layer": "189d11e4966-layer-2",
+          "field": "brand",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        },
+        {
+          "layer": "189d1322987-layer-3",
+          "field": "name",
+          "dataType": "esriFieldTypeString",
+          "useDomain": ""
+        }
+      ]
+    }
+  ],
+  "persistOnClose": false,
+  "slAppendChoice": "OR",
+  "headerText": "Select a Group to Filter"
+}

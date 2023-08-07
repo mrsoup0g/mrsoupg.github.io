@@ -1,0 +1,9 @@
+{
+  "serviceURL": "https://utility.arcgisonline.com/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
+  "defaultTitle": "Gas vs. Electric in Toronto, Ontario",
+  "defaultAuthor": "ArcGIS Web AppBuilder - Austin Campbell",
+  "defaultCopyright": "",
+  "defaultFormat": "PDF",
+  "defaultLayout": "MAP_ONLY",
+  "copyrightEditable": true
+}
